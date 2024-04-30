@@ -1,0 +1,83 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    width: 350px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#heading{
+    margin-top: 50px;
+    margin-left: 20px;
+    align-self: flex-start;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 50px;
+    position: relative;
+    z-index: 1;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    align-self: flex-start;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+#form{
+    margin-top: 20px;
+}
+.user{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 280px;
+    border-radius: 15px;
+    background-color: #D2D2D2;
+    border: none;
+    margin: 5px;
+    align-self: center;
+}
+#ballon1{
+    background-color: #d6e0fc;
+    height: 200px;
+    position: absolute;
+    width: 180px;
+    left: 0px;
+    top: 0px;
+    border-radius: 9% 0% 69% 33% / 9% 0% 100% 24% ;
+}
+#ballon2{
+    background-color: #004BFE;
+    height: 200px;
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    border-radius: 100% 0% 0% 100% / 58% 0% 0% 53%;
+}
+#submit{
+    height: 45px;
+    width: 280px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    background-color: #004BFE;
+    border-color: #004CFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

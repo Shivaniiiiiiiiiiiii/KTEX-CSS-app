@@ -1,0 +1,100 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    height: 600px;
+    width: 350px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+}
+img{
+    height: 170px;
+    width: 90px;
+    border-radius: 70px;
+}
+nav{
+    position: relative;
+    background-color: #D9D9D9;
+    height: 35px;
+    width: 348px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    border-radius: 18px 18px 0px 0px;
+    justify-content: space-between;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#new_year{
+    border-radius: 0px;
+    height: 200px;
+    width: 250px;
+    margin-top: 10px;
+}
+#men{
+    width: 348px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#women{
+    width: 348px;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+    height: 20px;
+    display: inline-block;
+    font-size: 30px;
+}
+.cursive{
+    font-family: "WindSong", cursive;
+    font-weight: 450;
+    font-style: normal;
+}
+.plain{
+    margin-top: 5px;
+}
+#men1{
+    width: 180px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    border: 2px solid black;
+}
+#women1{
+    width: 180px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    border: 2px solid black;
+}
+#left{
+    padding-left: 4px;
+}
+#right{
+    padding-right: 6px;
+}
+#ballon4{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 300px;
+    height: 180px;
+    border-radius: 0px;
+    z-index: -1;
+}
